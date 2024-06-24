@@ -5,31 +5,31 @@ export default function Weather() {
   return (
     <div className="weather">
       <form>
-        <input type="search" placeholder="Enter a location" />
-        <input type="submit" value="Search" />
+        <input
+          type="search"
+          placeholder="Enter a location"
+          className="search-bar"
+          required
+          autoFocus
+        />
+        <input type="submit" value="Search" className="search-button" />
       </form>
-
       <h1>Lisbon</h1>
-      <ul>
-        <li>Wednesday 08:00</li>
-        <li>Mostly Cloudy</li>
-      </ul>
-
-      <div className="row">
-        <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="weather icon"
-          ></img>
-          6°C
+      <p className="date">Wednesday 9:00</p>
+      <div>
+        <img
+          src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+          alt="weather icon"
+        ></img>
+        <h2>6°C</h2>
+        <p className="condition">partly cloudy </p>
+      </div>
+      <div className="d-flex justify-content-evenly weather-info ">
+        <div>
+          <p>Humidity: 72%</p>
         </div>
-        <div className="col-6">
-          <ul>
-            <li>Precipitation: 15%</li>
-            <li>Humiidity: 72%</li>
-
-            <li>Wind: 5km/h</li>
-          </ul>
+        <div>
+          <p>Wind: 7km/h</p>
         </div>
       </div>
     </div>

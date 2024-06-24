@@ -1,0 +1,11 @@
+:root {
+  --button-color: #9424f5;
+}
+
+.App {
+  text-align: center;
+}
+
+.App a {
+  color: var(--button-color);
+}
