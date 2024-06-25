@@ -25,12 +25,9 @@ export default function Weather() {
         <p className="condition">partly cloudy </p>
       </div>
       <div className="d-flex justify-content-evenly weather-info ">
-        <div>
-          <p>Humidity: 72%</p>
-        </div>
-        <div>
-          <p>Wind: 7km/h</p>
-        </div>
+        <p>Humidity: 72%</p>
+
+        <p>Wind: 7km/h</p>
       </div>
     </div>
   );

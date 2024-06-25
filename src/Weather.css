@@ -28,7 +28,7 @@ body {
   margin: 30px 0;
   padding: 10px;
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 .search-button {
@@ -36,7 +36,7 @@ body {
   padding: 10px;
   margin-left: 10px;
   border: 1px solid var(--button-color);
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: var(--button-color);
   color: white;
 }
@@ -44,9 +44,13 @@ body {
 .weather h1 {
   font-weight: 600;
   font-size: 50px;
+  text-transform: capitalize;
+}
+.weather h2 {
 }
 .weather .date {
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 .weather-info {
@@ -54,7 +58,21 @@ body {
   margin: 25px auto;
   display: block;
   width: 300px;
+  font-weight: 600;
   font-size: 18px;
   font-weight: 600;
-  color: white;
+
+  text-transform: capitalize;
+}
+.weather img {
+  width: 150px;
+  height: auto;
+}
+
+.weather .condition {
+  font-size: 18px;
+  font-weight: 400;
+}
+.weather .placeholder {
+  color: black;
 }
