@@ -44,25 +44,23 @@ body {
 .weather h1 {
   font-weight: 600;
   font-size: 50px;
-  text-transform: capitalize;
 }
 .weather h2 {
+  font-size: 40px;
+  font-weight: 600;
 }
 .weather .date {
   font-size: 20px;
-  text-transform: capitalize;
 }
 
 .weather-info {
   padding: 15px 10px;
   margin: 25px auto;
   display: block;
-  width: 300px;
+  width: 350px;
   font-weight: 600;
   font-size: 18px;
   font-weight: 600;
-
-  text-transform: capitalize;
 }
 .weather img {
   width: 150px;
@@ -70,9 +68,6 @@ body {
 }
 
 .weather .condition {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
-}
-.weather .placeholder {
-  color: black;
 }
