@@ -43,10 +43,10 @@ body {
 
 .weather h1 {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 60px;
 }
 .weather h2 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 600;
 }
 .weather .date {
@@ -62,7 +62,9 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-.weather img {
+.weather .weather-icon {
+  margin: 0 auto;
+  display: block;
   width: 150px;
   height: auto;
 }
@@ -72,6 +74,7 @@ body {
   font-weight: 400;
 }
 
-.loading {
-  text-align: center;
+.weather .unit {
+  font-size: 16px;
+  font-weight: 600;
 }
