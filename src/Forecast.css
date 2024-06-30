@@ -1,0 +1,11 @@
+.forecast {
+  text-align: center;
+}
+.max-temp {
+  font-weight: 500;
+  font-size: 18px;
+}
+.min-temp {
+  font-weight: 400;
+  opacity: 0.5;
+}
