@@ -25,7 +25,7 @@ body {
 
 .search-bar {
   width: 300px;
-  margin: 30px 0;
+  margin: 25px 0;
   padding: 10px;
   border: 1px solid white;
   border-radius: 50px;
@@ -43,19 +43,19 @@ body {
 
 .weather h1 {
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
 }
 .weather h2 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 }
 .weather .date {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .weather-info {
   padding: 15px 10px;
-  margin: 25px auto;
+  margin: 0 auto;
   display: block;
   width: 350px;
   font-weight: 600;
@@ -65,13 +65,13 @@ body {
 .weather .weather-icon {
   margin: 0 auto;
   display: block;
-  width: 150px;
+  width: 160px;
   height: auto;
 }
 
 .weather .condition {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .weather .unit {
